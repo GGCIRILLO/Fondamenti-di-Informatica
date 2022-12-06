@@ -1,0 +1,10 @@
+# Fondamenti-di-Informatica
+Scrivere un programma per la gestione dei documenti memorizzati in una cartella. Ogni documento è descritto dal suo nome (stringa di al più 16 caratteri), la dimensione in megabyte (numero reale), dalla data di creazione (stringa di 6 caratteri o intero per definire una data nel formato AAMMGG) e la data di ultima modifica (stringa di 6 caratteri o intero per definire una data nel formato AAMMGG).
+
+
+La cartella non contiene documenti con lo stesso nome. Il programma deve fornire le funzionalità descritte di seguito, tenendo presente che i primi due requisiti sono precondizioni per l’esecuzione dei rimanenti. Il programma deve essere strutturato utilizzando i prototipi di funzione. Inoltre, l’accesso agli elementi dei vettori deve essere implementato tramite l’utilizzo esplicito di puntatori. Il vettore deve essere gestito tramite allocazione dinamica.
+
+Lettura dei documenti contenuti in una cartella. Il programma deve generare il vettore dei documenti contenuti nella cartella caricando i dati da un file di testo denominato cartella.txt. Nel caso in cui il file non sia presente il programma deve terminare la propria esecuzione mostrando un messaggio di errore. N.B. il programma NON deve chiedere all’utente di inserire nuovamente il file.
+Stampa a video del vettore dei file. Il programma mostra a video il vettore dei documenti caricati in memoria.
+Ordinamento dei documenti. Il programma permette all’utente di ordinare in senso crescente o decrescente i documenti memorizzati nel vettore in base alla loro data dimensione. Il programma chiede preventivamente all’utente la modalità di ordinamento (crescente oppure decrescente) e successivamente ordina i documenti secondo la modalità scelta. Se l’utente inserisce una modalità non valida allora il programma mostra un messaggio di errore.
+Creazione di una nuovo vettore. Il programma genera un nuovo vettore  in cui devono essere memorizzati i documenti con dimensione superiore a 2 megabyte presenti nel vettore delle cartelle. 
