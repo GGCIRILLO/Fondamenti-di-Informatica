@@ -1,0 +1,15 @@
+7
+pizza
+9.99
+carne
+12.99
+pasta 
+9.99
+pesce 
+15.99
+fritto
+4.99
+dolce
+5.99
+caffe
+1.99
